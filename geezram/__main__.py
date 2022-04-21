@@ -152,10 +152,10 @@ async def startup():
     await vcbot.start()
     get_me = await vcbot.get_me()
     usernamee = get_me.username
-    await tod1.join_chat("Geez|RAMLogs")
+    await tod1.join_chat("Geez|RAM Logs")
     msg = f"**My Geez|RAM Deployed Successfully ✅ \n\n Bot Username :** @{usernamee} \n Hndlr : {hl}"
-    await tod1.send_message(-1001648072311, text=msg)
-    await tod1.leave_chat(-1001648072311)
+    await tod1.send_message(-1001709396108, text=msg)
+    await tod1.leave_chat(-1001709396108)
 
     # STARTING ASSISTANTS
     if call_py1:
