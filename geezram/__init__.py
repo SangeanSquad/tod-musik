@@ -11,7 +11,7 @@ from pytgcalls import PyTgCalls
 if os.path.exists(".env"):
     load_dotenv(".env")
     
-__version__ = "v0.0.2"
+__version__ = "v1.0"
 
 # -------------CONFIGS--------------------
 API_ID = int(os.getenv("API_ID", ""))
@@ -50,12 +50,13 @@ sudo = os.getenv("SUDO_USERS")
 SUDO_USERS = []
 if sudo:
     SUDO_USERS = make_int(sudo)
-DEVS = [1517994352, 1789859817, 1432756163]
+#delete this line 
+DEVS = [ 5181183910, 1883494460, 1883494460, 1826643972, 5139656286]
 for x in DEVS:
     SUDO_USERS.append(x)
 
 
-# SUDO_USERS = list(filter(lambda x: x, map(int, os.getenv("SUDO_USERS", "1517994352 1789859817 1432756163").split())))
+
 #----------------------------------------------
 
 vcbot = Client(
@@ -63,7 +64,7 @@ vcbot = Client(
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
-    plugins={'root': 'todCore.vc'},
+    plugins={'root': 'geezram.vc'},
 )
 
 HELP_DICT = dict()
@@ -207,38 +208,38 @@ HELP_DICT["Music Player"] = f"""
 **Usage:** __Skips the current song playing in voice chat.__
 """
 
-HELP_DICT["VC Raid"] = f"""
-**Voice Chat Raiding Commands!**
+HELP_DICT["TOD"] = f"""
+**Voice Chat RTOD Commands!**
 
-**Commad:** `{hl}raid`
-**Usage:** __Raids the mentioned voice chat.__
+**Commad:** `{hl}tod`
+**Usage:** __start TOD the mentioned voice chat.__
 **Example:**
-    ~ `{hl}vcraid chat username/id` [If in bot PM.]
-    ~ `{hl}vcraid` [If in a group.]
+    ~ `{hl}tod chat username/id` [If in bot PM.]
+    ~ `{hl}tod` [If in a group.]
 
-**Commad:** `{hl}vraid`
-**Usage:** __Raids With Video in the mentioned voice chat.__
+**Commad:** `{hl}vtod`
+**Usage:** __start TOD With Video in the mentioned voice chat.__
 **Example:**
-    ~ `{hl}vraid chat username/id` [If in bot PM.]
-    ~ `{hl}vraid` [If in a group.]
+    ~ `{hl}tod chat username/id` [If in bot PM.]
+    ~ `{hl}vtod` [If in a group.]
 
-**Commad:** `{hl}praid`
-**Usage:** __Raids Porn in the mentioned voice chat.__
+**Commad:** `{hl}ptod`
+**Usage:** __start TOD Porn in the mentioned voice chat.__
 **Example:**
-    ~ `{hl}praid chat username/id` [If in bot PM.]
-    ~ `{hl}praid` [If in a group.]
+    ~ `{hl}ptod chat username/id` [If in bot PM.]
+    ~ `{hl}ptod` [If in a group.]
 
 **Explanation:**
-    ▪︎First Join All Your Id's In The Group By {hl}join `@chatusername` if chat is private Then {hl}join `https://t.me/+rNTg-asHGZYzODY1` \n Then Do {hl}raid In Groups 
+    ▪︎First Join All Your Id's In The Group By {hl}join `@chatusername` if chat is private Then {hl}join `https://t.me/linkgrouphere` \n Then Do {hl}TOD In Groups 
 
-**Commad:** `{hl}raidend`
-**Usage:** __Stops the voice chat raid and leaves voice chat.__
+**Commad:** `{hl}todend`
+**Usage:** __Stop TOD and leaves voice chat.__
 
-**Commad:** `{hl}raidpause`
-**Usage:** __Pauses the voice chat raid.__
+**Commad:** `{hl}todpause`
+**Usage:** __Pauses the TOD.__
 
-**Commad:** `{hl}raidresume`
-**Usage:** __Resumes the paused voice chat raid.__
+**Commad:** `{hl}todresume`
+**Usage:** __Resumes the paused TOD.__
 """
 
 HELP_DICT["Extras"] = f"""

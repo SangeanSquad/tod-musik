@@ -15,135 +15,135 @@ async def startup():
     if tod1:
         try:
             await tod1.start()
-            await tod1.join_chat("todCore")
-            await tod1.join_chat("RiZoeLX")
-            await tod1.join_chat("Its_Hellbot")
+            await tod1.join_chat("GeezSupport")
+            await tod1.join_chat("ramsupportt")
+            await tod1.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
     if tod2:
         try:
             await tod2.start()
-            await tod2.join_chat("todCore")
-            await tod2.join_chat("RiZoeLX")
-            await tod2.join_chat("Its_Hellbot")
+            await tod2.join_chat("GeezSupport")
+            await tod2.join_chat("ramsupportt")
+            await tod2.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
     if tod3:
         try:
             await tod3.start()
-            await tod3.join_chat("todCore")
-            await tod3.join_chat("RiZoeLX")
-            await tod3.join_chat("Its_Hellbot")
+            await tod3.join_chat("GeezSupport")
+            await tod3.join_chat("ramsupportt")
+            await tod3.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
     if tod4:
         try:
             await tod4.start()
-            await tod4.join_chat("todCore")
-            await tod4.join_chat("RiZoeLX")
-            await tod4.join_chat("Its_Hellbot")
+            await tod4.join_chat("GeezSupport")
+            await tod4.join_chat("ramsupportt")
+            await tod4.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
     if tod5:
         try:
             await tod5.start()
-            await tod5.join_chat("todCore")
-            await tod5.join_chat("RiZoeLX")
-            await tod5.join_chat("Its_Hellbot")
+            await tod5.join_chat("GeezSupport")
+            await tod5.join_chat("ramsupportt")
+            await tod5.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
     if tod6:
         try:
             await tod6.start()
-            await tod6.join_chat("todCore")
-            await tod6.join_chat("RiZoeLX")
-            await tod6.join_chat("Its_Hellbot")
+            await tod6.join_chat("GeezSupport")
+            await tod6.join_chat("ramsupportt")
+            await tod6.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
     if tod7:
         try:
             await tod7.start()
-            await tod7.join_chat("todCore")
-            await tod7.join_chat("RiZoeLX")
-            await tod7.join_chat("Its_Hellbot")
+            await tod7.join_chat("GeezSupport")
+            await tod7.join_chat("ramsupportt")
+            await tod7.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
     if tod8:
         try:
             await tod8.start()
-            await tod8.join_chat("todCore")
-            await tod8.join_chat("RiZoeLX")
-            await tod8.join_chat("Its_Hellbot")
+            await tod8.join_chat("GeezSupport")
+            await tod8.join_chat("ramsupportt")
+            await tod8.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
     if tod9:
         try:
             await tod9.start()
-            await tod9.join_chat("todCore")
-            await tod9.join_chat("RiZoeLX")
-            await tod9.join_chat("Its_Hellbot")
+            await tod9.join_chat("GeezSupport")
+            await tod9.join_chat("ramsupportt")
+            await tod9.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
     if tod10:
         try:
             await tod10.start()
-            await tod10.join_chat("todCore")
-            await tod10.join_chat("RiZoeLX")
-            await tod10.join_chat("Its_Hellbot")
+            await tod10.join_chat("GeezSupport")
+            await tod10.join_chat("ramsupportt")
+            await tod10.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
     if tod11:
         try:
             await tod11.start()
-            await tod11.join_chat("todCore")
-            await tod11.join_chat("RiZoeLX")
-            await tod11.join_chat("Its_Hellbot")
+            await tod11.join_chat("GeezSupport")
+            await tod11.join_chat("ramsupportt")
+            await tod11.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
     if tod12:
         try:
             await tod12.start()
-            await tod12.join_chat("todCore")
-            await tod12.join_chat("RiZoeLX")
-            await tod12.join_chat("Its_Hellbot")
+            await tod12.join_chat("GeezSupport")
+            await tod12.join_chat("ramsupportt")
+            await tod12.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
     if tod13:
         try:
             await tod13.start()
-            await tod13.join_chat("todCore")
-            await tod13.join_chat("RiZoeLX")
-            await tod13.join_chat("Its_Hellbot")
+            await tod13.join_chat("GeezSupport")
+            await tod13.join_chat("ramsupportt")
+            await tod13.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
     if tod14:
         try:
             await tod14.start()
-            await tod14.join_chat("todCore")
-            await tod14.join_chat("RiZoeLX")
-            await tod14.join_chat("Its_Hellbot")
+            await tod14.join_chat("GeezSupport")
+            await tod14.join_chat("ramsupportt")
+            await tod14.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
     if tod15:
         try:
             await tod15.start()
-            await tod15.join_chat("todCore")
-            await tod15.join_chat("RiZoeLX")
-            await tod15.join_chat("Its_Hellbot")
+            await tod15.join_chat("GeezSupport")
+            await tod15.join_chat("ramsupportt")
+            await tod15.join_chat("beritabaruu")
         except Exception as e:
             print(str(e))
 
@@ -152,8 +152,8 @@ async def startup():
     await vcbot.start()
     get_me = await vcbot.get_me()
     usernamee = get_me.username
-    await tod1.join_chat("todCoreLogs")
-    msg = f"**My todCore Deployed Successfully ✅ \n\n Bot Username :** @{usernamee} \n Hndlr : {hl}"
+    await tod1.join_chat("Geez|RAMLogs")
+    msg = f"**My Geez|RAM Deployed Successfully ✅ \n\n Bot Username :** @{usernamee} \n Hndlr : {hl}"
     await tod1.send_message(-1001648072311, text=msg)
     await tod1.leave_chat(-1001648072311)
 

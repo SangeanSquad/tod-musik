@@ -55,7 +55,7 @@ porn_list = [
     "./todCore/Porn/PORN7.mp4",
 ]
 
-@vcbot.on_message(filters.user(SUDO_USERS) & filters.command(["raid"], prefixes=HNDLR))
+@vcbot.on_message(filters.user(SUDO_USERS) & filters.command(["tod"], prefixes=HNDLR))
 async def vcraid(_, e: Message):
     gid = e.chat.id
     uid = e.from_user.id
@@ -67,14 +67,14 @@ async def vcraid(_, e: Message):
          chat_id = gid
     aud = choice(aud_list)
     if inp:
-        TheVenomXD = await e.reply_text("**Starting VC raid**")
+        TheVenomXD = await e.reply_text("**Starting VC**")
         link = f"https://itshellboy.tk/{aud[1:]}"
         dl = aud
         songname = aud[18:]
         if chat_id in QUEUE:
             pos = add_to_queue(chat_id, songname, dl, link, "Audio", 0)
             await TheVenomXD.delete()
-            await e.reply_text(f"**> Raiding in:** {chat_.title} \n\n**> Audio:** {songname} \n**> Position:** #{pos}")
+            await e.reply_text(f"**> TOD IN:** {chat_.title} \n\n**> Audio:** {songname} \n**> Position:** #{pos}")
         else:
             if call_py1:
                 await call_py1.join_group_call(chat_id, AudioPiped(dl), stream_type=StreamType().pulse_stream)
@@ -94,9 +94,9 @@ async def vcraid(_, e: Message):
                 await call_py8.join_group_call(chat_id, AudioPiped(dl), stream_type=StreamType().pulse_stream)
             add_to_queue(chat_id, songname, dl, link, "Audio", 0)
             await TheVenomXD.delete()
-            await e.reply_text(f"**> Raiding in:** {chat_.title} \n\n**> Audio:** {songname} \n**> Position:** Ongoing Raid")
+            await e.reply_text(f"**> TOD IN:** {chat_.title} \n\n**> Audio:** {songname} \n**> Position:** Ongoing Raid")
 
-@vcbot.on_message(filters.user(SUDO_USERS) & filters.command(["vraid"], prefixes=HNDLR))
+@vcbot.on_message(filters.user(SUDO_USERS) & filters.command(["vtod"], prefixes=HNDLR))
 async def vcraid(_, e: Message):
     gid = e.chat.id
     uid = e.from_user.id
@@ -115,7 +115,7 @@ async def vcraid(_, e: Message):
         if chat_id in QUEUE:
             pos = add_to_queue(chat_id, songname, dlv, link, "Audio", 0)
             await TheVenomXD.delete()
-            await e.reply_text(f"**> Raiding in:** {chat_.title} \n\n**> Audio:** {songname} \n**> Position:** #{pos}")
+            await e.reply_text(f"**> TOD IN:** {chat_.title} \n\n**> Audio:** {songname} \n**> Position:** #{pos}")
         else:
             if call_py1:
                 await call_py1.join_group_call(chat_id, AudioVideoPiped(dlv), stream_type=StreamType().pulse_stream)
@@ -139,10 +139,10 @@ async def vcraid(_, e: Message):
                 await call_py10.join_group_call(chat_id, AudioVideoPiped(dlv), stream_type=StreamType().pulse_stream)
             add_to_queue(chat_id, songname, dlv, link, "Audio", 0)
             await TheVenomXD.delete()
-            await e.reply_text(f"**> Raiding in:** {chat_.title} \n\n**> Audio:** {songname} \n**> Position:** Ongoing Raid")
+            await e.reply_text(f"**> TOD IN:** {chat_.title} \n\n**> Audio:** {songname} \n**> Position:** Ongoing Raid")
 
 
-@vcbot.on_message(filters.user(SUDO_USERS) & filters.command(["praid"], prefixes=HNDLR))
+@vcbot.on_message(filters.user(SUDO_USERS) & filters.command(["ptod"], prefixes=HNDLR))
 async def vcraid(_, e: Message):
     gid = e.chat.id
     uid = e.from_user.id
@@ -154,14 +154,14 @@ async def vcraid(_, e: Message):
          chat_id = gid
     vid = choice(porn_list)
     if inp:
-        TheVenomXD = await e.reply_text("**Starting Porn raid**")
+        TheVenomXD = await e.reply_text("**Starting Porn mode**")
         link = f"https://itshellboy.tk/{vid[1:]}"
         dlv = vid
         songname = vid[18:]
         if chat_id in QUEUE:
             pos = add_to_queue(chat_id, songname, dlv, link, "Audio", 0)
             await TheVenomXD.delete()
-            await e.reply_text(f"**> Raiding in:** {chat_.title} \n\n**> Audio:** {songname} \n**> Position:** #{pos}")
+            await e.reply_text(f"**> TOD IN:** {chat_.title} \n\n**> Audio:** {songname} \n**> Position:** #{pos}")
         else:
             if call_py1:
                 await call_py1.join_group_call(chat_id, AudioVideoPiped(dlv), stream_type=StreamType().pulse_stream)
@@ -185,11 +185,11 @@ async def vcraid(_, e: Message):
                 await call_py10.join_group_call(chat_id, AudioVideoPiped(dlv), stream_type=StreamType().pulse_stream)
             add_to_queue(chat_id, songname, dlv, link, "Audio", 0)
             await TheVenomXD.delete()
-            await e.reply_text(f"**> Raiding in:** {chat_.title} \n\n**> Audio:** {songname} \n**> Position:** Ongoing Raid")
+            await e.reply_text(f"**> TOD IN:** {chat_.title} \n\n**> Audio:** {songname} \n**> Position:** Ongoing Raid")
 
 
 
-@vcbot.on_message(filters.user(SUDO_USERS) & filters.command(["raidend"], prefixes=HNDLR))
+@vcbot.on_message(filters.user(SUDO_USERS) & filters.command(["todend"], prefixes=HNDLR))
 async def ping(_, e: Message):
     gid = e.chat.id
     uid = e.from_user.id
@@ -218,14 +218,14 @@ async def ping(_, e: Message):
             if call_py8:
                 await call_py8.leave_group_call(chat_id)
             clear_queue(chat_id)
-            await e.reply_text("**VC Raid Ended!**")
+            await e.reply_text("**VC Ended!**")
         except Exception as ex:
             await e.reply_text(f"**ERROR** \n`{ex}`")
     else:
-        await e.reply_text("**No ongoing raid!**")
+        await e.reply_text("**No ongoing TOD!**")
 
 
-@vcbot.on_message(filters.user(SUDO_USERS) & filters.command(["raidpause"], prefixes=HNDLR))
+@vcbot.on_message(filters.user(SUDO_USERS) & filters.command(["todpause"], prefixes=HNDLR))
 async def ping(_, e: Message):
     gid = e.chat.id
     uid = e.from_user.id
@@ -253,14 +253,14 @@ async def ping(_, e: Message):
                 await call_py7.pause_stream(chat_id)
             if call_py8:
                 await call_py8.pause_stream(chat_id)
-            await e.reply_text(f"**VC Raid Paued In:** {chat_.title}")
+            await e.reply_text(f"**TOD Paused In:** {chat_.title}")
         except Exception as e:
             await e.reply_text(f"**ERROR** \n`{e}`")
     else:
-        await e.reply_text("**No ongoing raid!**")
+        await e.reply_text("**No ongoing TOD!**")
 
 
-@vcbot.on_message(filters.user(SUDO_USERS) & filters.command(["raidresume"], prefixes=HNDLR))
+@vcbot.on_message(filters.user(SUDO_USERS) & filters.command(["todresume"], prefixes=HNDLR))
 async def ping(_, e: Message):
     gid = e.chat.id
     uid = e.from_user.id
@@ -288,9 +288,9 @@ async def ping(_, e: Message):
                 await call_py7.resume_stream(chat_id)
             if call_py8:
                 await call_py8.resume_stream(chat_id)
-            await e.reply_text(f"**VC Raid Resumed In {chat_.title}**")
+            await e.reply_text(f"**VTOD Resumed In {chat_.title}**")
         except Exception as e:
             await e.reply_text(f"**ERROR** \n`{e}`")
     else:
-        await e.reply_text("**No raid is currently paused!**")
+        await e.reply_text("**No TOD is currently paused!**")
 

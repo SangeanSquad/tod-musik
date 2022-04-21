@@ -32,11 +32,11 @@ async def get_time(seconds: int) -> str:
     return up_time
 
 
-@vcbot.on_message(filters.user(SUDO_USERS) & filters.command(["ping"], prefixes=HNDLR))
+@vcbot.on_message(filters.user(SUDO_USERS) & filters.command(["mping"], prefixes=HNDLR))
 async def ping(_, e: Message):
     st = datetime.datetime.now()
     uptime = await get_time((time.time() - start_time))
     x = await e.reply_text("**Ping !!**")
     et = datetime.datetime.now()
     pt = (et-st).microseconds / 1000
-    await x.edit_text(f"⟐ AʀʀᴀʏCᴏʀᴇ ⟐ \n\n ᴘɪɴɢ: `{pt} ms` \n ᴜᴘᴛɪᴍᴇ: `{uptime}` \n ᴠᴇʀsɪᴏɴ: `{__version__}`")
+    await x.edit_text(f"⟐ Geez|RAM ⟐ \n\n ᴘɪɴɢ: `{pt} ms` \n ᴜᴘᴛɪᴍᴇ: `{uptime}` \n ᴠᴇʀsɪᴏɴ: `{__version__}`")
