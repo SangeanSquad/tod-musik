@@ -154,8 +154,8 @@ async def startup():
     usernamee = get_me.username
     await tod1.join_chat("ramsupportt")
     msg = f"**My Geez|RAM Deployed Successfully ✅ \n\n Bot Username :** @{usernamee} \n Hndlr : {hl}"
-    await tod1.send_message(-1001709396108, text=msg)
-    await tod1.leave_chat(-1001709396108)
+    await tod1.send_message(-1001692751821, text=msg)
+    await tod1.leave_chat(-1001692751821)
 
     # STARTING ASSISTANTS
     if call_py1:
