@@ -60,7 +60,7 @@ for x in DEVS:
 #----------------------------------------------
 
 vcbot = Client(
-    'todCore',
+    'geezram',
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
@@ -80,105 +80,105 @@ else:
 
 #-------------------------CLIENTS-----------------------------
 if SESSION1:
-    tod1 = Client(SESSION1, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod1 = Client(SESSION1, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py1 = PyTgCalls(tod1)
 else:
     tod1 = None
     call_py1 = None
 
 if SESSION2:
-    tod2 = Client(SESSION2, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod2 = Client(SESSION2, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py2 = PyTgCalls(tod2)
 else:
     tod2 = None
     call_py2 = None
 
 if SESSION3:
-    tod3 = Client(SESSION3, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod3 = Client(SESSION3, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py3 = PyTgCalls(tod3)
 else:
     tod3 = None
     call_py3 = None
 
 if SESSION4:
-    tod4 = Client(SESSION4, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod4 = Client(SESSION4, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py4 = PyTgCalls(tod4)
 else:
     tod4 = None
     call_py4 = None
 
 if SESSION5:
-    tod5 = Client(SESSION5, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod5 = Client(SESSION5, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py5 = PyTgCalls(tod5)
 else:
     tod5 = None
     call_py5 = None
 
 if SESSION6:
-    tod6 = Client(SESSION6, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod6 = Client(SESSION6, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py6 = PyTgCalls(tod6)
 else:
     tod6 = None
     call_py6 = None
         
 if SESSION7:
-    tod7 = Client(SESSION7, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod7 = Client(SESSION7, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py7 = PyTgCalls(tod7)
 else:
     tod7 = None
     call_py7 = None
 
 if SESSION8:
-    tod8 = Client(SESSION8, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod8 = Client(SESSION8, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py8 = PyTgCalls(tod8)
 else:
     tod8 = None
     call_py8 = None
 
 if SESSION9:
-    tod9 = Client(SESSION9, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod9 = Client(SESSION9, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py9 = PyTgCalls(tod9)
 else:
     tod9 = None
     call_py9 = None
     
 if SESSION10:
-    tod10 = Client(SESSION10, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod10 = Client(SESSION10, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py10 = PyTgCalls(tod10)
 else:
     tod10 = None
     call_py10 = None
            
 if SESSION11:
-    tod11 = Client(SESSION11, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod11 = Client(SESSION11, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py11 = PyTgCalls(tod11)
 else:
     tod11 = None
     call_py11 = None
 
 if SESSION12:
-    tod12 = Client(SESSION12, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod12 = Client(SESSION12, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py12 = PyTgCalls(tod12)
 else:
     tod12 = None
     call_py12 = None
 
 if SESSION13:
-    tod13 = Client(SESSION13, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod13 = Client(SESSION13, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py13 = PyTgCalls(tod13)
 else:
     tod13 = None
     call_py13 = None
 
 if SESSION14:
-    tod14 = Client(SESSION14, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod14 = Client(SESSION14, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py14 = PyTgCalls(tod14)
 else:
     tod14 = None
     call_py14 = None
 
 if SESSION15:
-    tod15 = Client(SESSION15, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'todCore.vc'})
+    tod15 = Client(SESSION15, api_id=API_ID, api_hash=API_HASH, plugins={'root': 'geezram.vc'})
     call_py15 = PyTgCalls(tod15)
 else:
     tod15 = None
